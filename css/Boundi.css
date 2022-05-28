@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: 10000px;
 }
 
 .main-btn {
@@ -207,3 +206,43 @@ body {
 
 
 /* End Project */
+
+
+/* Start Subscribe */
+
+.subscribe {
+    background-color: var(--yellow-color);
+}
+
+.subscribe input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.subscribe input[type="submit"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+}
+
+.subscribe input[type="text"]:focus {
+    outline: none;
+}
+
+.subscribe::placeholder {
+    color: white;
+}
+
+
+/* End Subscribe */
+
+
+/* Start Footer */
+
+.footer {
+    background-color: var(--dark-color);
+}
+
+
+/* End Footer */
